@@ -104,7 +104,7 @@
               "kind": "http",
               "inputs": {
                 "statusCode": 200,
-                "body": "Hello @{triggerBody()?['name']},\nYour Tweet ID : @{body('Post_a_tweet')['TweetId']}\nYour Tweet Text  :@{triggerBody()?['message']}\nOk"
+                "body": "Hello @{triggerBody()?['name']},\nYour Tweet ID : @{body('Post_a_tweet')['TweetId']}\nYour Tweet Text  :@{triggerBody()?['message']}\nThank You"
               },
               "runAfter": {
                 "Post_a_tweet": [
