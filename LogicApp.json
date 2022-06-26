@@ -94,7 +94,7 @@
                 "method": "post",
                 "path": "/posttweet",
                 "queries": {
-                  "tweetText": "@triggerBody()?['message']"
+                  "tweetText": "@{triggerBody()?['message']}\nThis tweet is posted by LogicApp"
                 }
               },
               "runAfter": {}
